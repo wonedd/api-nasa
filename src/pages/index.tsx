@@ -45,7 +45,7 @@ export default function Home(){
     {
       isLoading ? (
         <div style={{alignSelf:'center'}}>
-        <Skeleton count={1} width={362} height={365} circle baseColor="purple" /> 
+        <Skeleton width={362} height={365} circle baseColor="rgba(109, 103, 103, 0.514)" /> 
         </div>
       ):(
     <Image src={data?.url || error} />
@@ -53,7 +53,7 @@ export default function Home(){
        {
        isLoading ? (
         <div style={{alignSelf:'center'}}>
-        <Skeleton width={304} height={900} baseColor="purple" enableAnimation/>
+        <Skeleton width={304} height={900} baseColor="rgba(109, 103, 103, 0.514)" enableAnimation/>
         </div>
         ): (
     <Content>
